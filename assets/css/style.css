@@ -1,0 +1,86 @@
+/* Body */
+
+body {
+
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+/* class */
+.bg-color-dark {
+    background-color: #2D2D2D;
+}
+
+/* Portada */
+#Portada {
+    background-image: url('../img/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    min-width: 95vw;
+    border-style: groove;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+/* pokeball portada*/
+#Pokeball_portada {
+    fill: #2D2D2D;
+    width: 20rem;
+}
+
+/* main */
+#Principal {
+    background-image: url('../img/bg-img.jpg');
+    background-repeat: space;
+    background-size: cover;
+    height: max-content;
+    min-width: 95vw;
+    border-style: groove;
+    min-height: 100vh;
+    display: none;
+}
+
+/* Hero */
+#Hero-section {
+    border-style: groove;
+    border-radius: 4rem;
+    height: 5rem;
+    margin: auto;
+    width: 95%;
+}
+
+/* pokeball */
+#Pokeball {
+    fill: #FFFFFF;
+    width: 4rem;
+}
+
+/* Formulario */
+#Formulario {
+    border-style: groove;
+    border-radius: 1rem;
+    width: 90%;
+}
+
+/* Pokémon */
+#Pokemon {
+    display: none;
+    border-style: groove;
+    border-radius: 1rem;
+    width: 90%;
+}
+
+/* Pokeimg */
+#Pokeimg {
+    width: 10rem;
+}
+
+/* Pokestats */
+
+#Pokestats {
+    /* width: 100%; */
+    height: 40vh;
+    padding: 0;
+}
